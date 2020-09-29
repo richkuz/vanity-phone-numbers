@@ -1,5 +1,4 @@
 require_relative 'vanity/constants.rb'
-
 module Vanity
   def self.find_number(word)
     num = ''
