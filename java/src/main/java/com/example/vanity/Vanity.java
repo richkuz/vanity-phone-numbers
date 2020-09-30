@@ -1,4 +1,5 @@
 package com.example.vanity;
+
 class Vanity
 {
     // Your program begins with a call to main().
