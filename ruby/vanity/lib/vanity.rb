@@ -1,6 +1,5 @@
-require "vanity/version"
+require_relative 'vanity/constants.rb'
 
 module Vanity
-  class Error < StandardError; end
-  # Your code goes here...
+  # An empty module
 end
