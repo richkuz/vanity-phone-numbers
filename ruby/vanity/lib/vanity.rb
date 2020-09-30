@@ -1,6 +1,6 @@
 require_relative "vanity/constants.rb"
 module Vanity
-  def self.find_nber(word)
+  def self.find_number(word)
     n = ""
     word.split("").each do |c|
       n = n + "2" if c == "a" || c == "b" || c == "c"
@@ -14,4 +14,4 @@ module Vanity
     end
   end
 end
-puts Vanity::find_nber("example")
+puts Vanity::find_number("example")
