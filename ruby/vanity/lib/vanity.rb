@@ -1,4 +1,4 @@
-require_relative "vanity/constants.rb"
+require_relative 'vanity/constants.rb'
 module Vanity
   def self.find_number(word)
     n = ""
